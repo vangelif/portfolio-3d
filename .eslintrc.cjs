@@ -15,5 +15,6 @@ module.exports = {
     "brace-style": ["error", "1tbs"],
     "comma-style": ["error", "last"],
     "react/jsx-key": "off",
+    "react/no-unknown-property": "off",
   },
 }
