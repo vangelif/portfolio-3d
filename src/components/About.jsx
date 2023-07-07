@@ -30,7 +30,7 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'>
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
       Hello, Vangelis here! I am an ex-Maritime professional and Mandarin teacher & translator turned to software development. 
       Currently, I am completing coursework at Microverse, a remote software dev organization where we are pair-programming and we are assigned real-world projects.
       In my capstone project we used HTML/CSS and JavaScript and built a Chinese Culture web course that I am truly proud of. I combined my love for the Mandarin language alongside my other love for coding and came up with that jewel!
