@@ -4,25 +4,28 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
+  sass,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
+  ruby,
+  postman,
+  java,
+  postgre,
+  webpack,
+  mui,
   git,
+  jest,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
-  tripguide,
-  threejs,
+  tripguide,  
 } from "../assets";
   
 export const navLinks = [
@@ -73,8 +76,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Jest",
+    icon: jest,
   },
   {
     name: "React JS",
@@ -89,16 +92,16 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Material JS",
+    icon: mui,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Ruby",
+    icon: ruby,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SASS",
+    icon: sass,
   },
   {
     name: "git",
@@ -109,8 +112,20 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Webpack",
+    icon: webpack,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgre,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
 ];
   
@@ -172,8 +187,8 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+        "Vangelis is exactly the sort of software developer any company would love. When we collaborate on this project (https://space-hub-tau.vercel.app/) and he was proficiently completing his tasks on time, he had a great way of simplifying complex problems into bite-sized pieces. As a junior developer, that was really valuable for me.",
+    name: "Yousef Badr",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
