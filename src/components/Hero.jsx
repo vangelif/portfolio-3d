@@ -14,7 +14,7 @@ const Hero = () => {
         <div> 
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I am <span className='text-[#915eff]'>Vangelis</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build projects, using React - Redux user <br className='sm:block hidden' /> interfaces and web applications and features
+            I build projects, using Ruby on Rails &<br className='sm:block hidden' /> React - Redux user interfaces, web applications and features
           </p>
 
         </div>

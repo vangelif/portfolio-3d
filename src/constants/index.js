@@ -45,19 +45,19 @@ export const navLinks = [
   
 const services = [
   {
-    title: "Web App Dev",
+    title: "Web App",
     icon: web,
   },
   {
-    title: "Front End Dev",
+    title: "Front End",
     icon: mobile,
   },
   {
-    title: "Backend Dev",
+    title: "Backend",
     icon: backend,
   },
   {
-    title: "Tech Writer",
+    title: "Writing",
     icon: creator,
   },
 ];
@@ -131,55 +131,38 @@ const technologies = [
   
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Web Developer",
+    // company_name: "Microverse Software Development School",
+    // icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mentored two junior developers every week with follow-ups and code reviews.",
+      "Provided adjustments to improve code quality and follow the principles of clean code.",
+      "Suggested tips and guidance for keeping their motivation high ensuring their longevity in the course.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Mandarin Teacher & Translator",
+    // company_name: "Tesla",
+    // icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tutored my students for the Hànyǔ Shuǐpíng Kǎoshì (HSK) Exam Certificates, level one, two & three.",
+      "Translated documentation as an independent contractor in the advertisement and technological domain.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Maritime Professional",
+    // company_name: "Shopify",
+    // icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mar 2011 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Served the Maritime Industry for nearly 10 years .",
+      "Assumed job posts in two European and two Asian countries.",
+      "Was entrusted with crucial job roles in two of the world's most dynamic maritime hubs: Shanghai & Singapore.",
     ],
   },
 ];
