@@ -153,6 +153,7 @@ const experiences = [
       "Tutored my students for the Hànyǔ Shuǐpíng Kǎoshì (HSK) Exam Certificates, level one, two & three.",
       "Translated documentation as an independent contractor in the advertisement and technological domain.",
     ],
+    companyLink: "https://icons8.com/icon/vZLJDLqVMupW/china",
   },
   {
     title: "Maritime Professional",
@@ -165,6 +166,7 @@ const experiences = [
       "Assumed job posts in two European and two Asian countries.",
       "Was entrusted with crucial job roles in two of the world's most dynamic maritime hubs: Shanghai & Singapore.",
     ],
+    companyLink: "https://icons8.com/icon/Saxs5taNdf8h/program",
   },
 ];
   
