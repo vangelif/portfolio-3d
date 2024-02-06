@@ -50,7 +50,7 @@ const Works = () => {
       </motion.div>
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 max-w-3x1 leading-[30px] text-secondary text-[17px]'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at illum tenetur, commodi quas veritatis debitis dignissimos non ullam sit ducimus aliquam. Impedit sequi iure, illum sint cumque ad repudiandae.loremisp Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime perspiciatis nostrum earum tempora possimus accusamus commodi, tenetur molestias vero maiores nemo aspernatur facere repellat doloribus consequatur! Quae non atque aliquam!
+Below you can find the projects I have worked on. Over the course of my career as a developer, I have worked on a variety of projects, ranging from web development to machine learning. I am always looking for new projects to work on, so if you have a project in mind, feel free to contact me.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

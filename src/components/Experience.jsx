@@ -9,14 +9,14 @@ import { textVariant } from '../utils/motion'
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement contentStyle={{ background: "#1d1836", color: "#fff"}} contentArrowStyle={{ borderRight: "7px solid #232631"}}
     date={experience.date}
-    iconStyle={{ background: experience.iconBg }} 
-    icon={
-      <div className='flex justify-center items-center w-full h-full'>
-        <a href={experience.companyLink} target="_blank" rel="noopener noreferrer">
-          <img src={experience.companyLink} alt={experience.company_name} className='w-[60%] h-[60%] object-contain' />
-        </a>
-      </div>
-    }
+    // iconStyle={{ background: experience.iconBg }} 
+    // icon={
+    //   <div className='flex justify-center items-center w-full h-full'>
+    //     <a href={experience.companyLink} target="_blank" rel="noopener noreferrer">
+    //       <img src={experience.companyLink} alt={experience.company_name} className='w-[60%] h-[60%] object-contain' />
+    //     </a>
+    //   </div>
+    // }
   >
     <div>
       <h3 className='text-white text-[24px] font-bold'>

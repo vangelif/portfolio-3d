@@ -24,14 +24,20 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
+  // budget,
   tripguide,  
 } from "../assets";
+
+import budget from "../assets/budget.png";
   
 export const navLinks = [
+  // {
+  //   id: "about",
+  //   title: "About",
+  // },
   {
-    id: "about",
-    title: "About",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "work",
@@ -199,67 +205,67 @@ const testimonials = [
   
 const projects = [
   {
-    name: "Car Rent",
+    name: "Logistics Company",
     description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A mobile and desktop web-based platform that allows users to search, book, and manage transport solutions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Rails",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vangelif/mvrva-transport-front-end",
   },
   {
-    name: "Job IT",
+    name: "Budgeting App",
     description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A mobile web application that enables users to create cost categories, view total expenses ranges for their costs, and track them.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "postgre",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "rails",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: budget,
+    source_code_link: "https://github.com/vangelif/budget_app",
   },
   {
     name: "Trip Guide",
     description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A desktop web application that allows users to create, edit and delete recipes, and also to view recipes created by other users.",
     tags: [
       {
-        name: "nextjs",
+        name: "rails",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgre",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ruby",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vangelif/recipe_app",
   },
 ];
   
