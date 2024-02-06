@@ -141,6 +141,7 @@ const experiences = [
       "Provided adjustments to improve code quality and follow the principles of clean code.",
       "Suggested tips and guidance for keeping their motivation high ensuring their longevity in the course.",
     ],
+    companyLink: "https://icons8.com/icon/20863/ship-wheel",
   },
   {
     title: "Mandarin Teacher & Translator",
