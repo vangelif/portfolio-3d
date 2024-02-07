@@ -17,7 +17,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <img 
             src={image}
             alt={name}
-            className='w-full h-full object-cover rounded-2x1'
+            className='w-full h-full object-fit rounded-2x1'
           />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div onClick={() => window.open (source_code_link, "_blank")} className='black-gradient rounded-full flex justify-center items-center cursor-pointer w-10 h-10'>
