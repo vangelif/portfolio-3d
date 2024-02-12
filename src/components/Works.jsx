@@ -50,7 +50,7 @@ const Works = () => {
       </motion.div>
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 max-w-3x1 leading-[30px] text-secondary text-[17px]'>
-Below you can find the projects I have worked on. Over the course of my career as a developer, I have worked on a variety of projects, ranging from web development to machine learning. I am always looking for new projects to work on, so if you have a project in mind, feel free to contact me.
+          Below you can find the projects I have worked on. Over the course of my career as a developer, I have worked on a variety of projects, ranging from web development to machine learning. I am always looking for new projects to work on, so if you have a project in mind, feel free to contact me.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

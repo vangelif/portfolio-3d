@@ -23,11 +23,14 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  // carrent,
+  // mvrva,
   // budget,
   tripguide,  
 } from "../assets";
 
+import tvshows from "../assets/tvshows.png";
+import mvrva from "../assets/mvrva.png";
 import budget from "../assets/budget.png";
   
 export const navLinks = [
@@ -143,9 +146,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Oct 2022 - Present",
     points: [
-      "Mentored two junior developers every week with follow-ups and code reviews.",
-      "Provided adjustments to improve code quality and follow the principles of clean code.",
+      "Mentored 5 junior developers every week with follow-ups and techical guidance.",
       "Suggested tips and guidance for keeping their motivation high ensuring their longevity in the course.",
+      "Built over 40 projects using a plethora of tech-stacks: HTML5, CSS3, MUI, Three, JS, React/Redux, Ruby on Rails, PostgreSQL.",
     ],
     companyLink: "https://icons8.com/icon/20863/ship-wheel",
   },
@@ -156,8 +159,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2020 - Present",
     points: [
-      "Tutored my students for the Hànyǔ Shuǐpíng Kǎoshì (HSK) Exam Certificates, level one, two & three.",
-      "Translated documentation as an independent contractor in the advertisement and technological domain.",
+      "Successfully guided 15+ students to pass the HSK Exam with a 90% success rate.",
+      "Contributed to the localization of software products and translated over 80,000 words.",
+      "Translated over 20 projects as an independent contractor in the advertisement and technological domain, maintaining an accuracy rate of 97%.",
     ],
     companyLink: "https://icons8.com/icon/vZLJDLqVMupW/china",
   },
@@ -168,9 +172,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mar 2011 - Feb 2021",
     points: [
-      "Served the Maritime Industry for nearly 10 years .",
-      "Assumed job posts in two European and two Asian countries.",
-      "Was entrusted with crucial job roles in two of the world's most dynamic maritime hubs: Shanghai & Singapore.",
+      "Held pivotal positions in 2 European and 2 Asian countries, assuming varied job posts that provided extensive exposure to global maritime operations.",
+      "Served the Maritime Industry for nearly 10 years, gaining comprehensive experience across diverse sectors such as port agency, ship chandling, purchasing supplies and cargo contracts.",
+      "Entrusted with crucial job roles in Shanghai & Singapore, where I facilitated the negotiation and execution of cargo contracts, contributing to the smooth handling of cargo operations.",
     ],
     companyLink: "https://icons8.com/icon/Saxs5taNdf8h/program",
   },
@@ -222,7 +226,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: mvrva,
     source_code_link: "https://github.com/vangelif/mvrva-transport-front-end",
   },
   {
@@ -231,15 +235,15 @@ const projects = [
         "A mobile web application that enables users to create cost categories, view total expenses ranges for their costs, and track them.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "postgre",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "rails",
+        name: "Rails",
         color: "pink-text-gradient",
       },
     ],
@@ -247,25 +251,25 @@ const projects = [
     source_code_link: "https://github.com/vangelif/budget_app",
   },
   {
-    name: "Trip Guide",
+    name: "Movie App",
     description:
         "A desktop web application that allows users to create, edit and delete recipes, and also to view recipes created by other users.",
     tags: [
       {
-        name: "rails",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "postgre",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "ruby",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/vangelif/recipe_app",
+    image: tvshows,
+    source_code_link: "https://github.com/vangelif/TV-Maze-API",
   },
 ];
   
