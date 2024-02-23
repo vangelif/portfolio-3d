@@ -32,6 +32,7 @@ import {
 import tvshows from "../assets/tvshows.png";
 import mvrva from "../assets/mvrva.png";
 import budget from "../assets/budget.png";
+import countries from "../assets/countries.PNG"
   
 export const navLinks = [
   // {
@@ -253,7 +254,7 @@ const projects = [
   {
     name: "Movie App",
     description:
-        "A desktop web application that allows users to create, edit and delete recipes, and also to view recipes created by other users.",
+        "A desktop web application that allows users to create, edit and delete comments, as are displayed with movies from Maze API.",
     tags: [
       {
         name: "JavaScript",
@@ -270,6 +271,27 @@ const projects = [
     ],
     image: tvshows,
     source_code_link: "https://github.com/vangelif/TV-Maze-API",
+  },
+  {
+    name: "Countries App",
+    description:
+        "A mobile web application that fetches data from API and the user interacts in an environment built with Material UI.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: countries,
+    source_code_link: "https://github.com/vangelif/react-webapp",
   },
 ];
   
