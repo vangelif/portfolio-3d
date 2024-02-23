@@ -32,17 +32,17 @@ import {
 import tvshows from "../assets/tvshows.png";
 import mvrva from "../assets/mvrva.png";
 import budget from "../assets/budget.png";
-import countries from "../assets/countries.PNG"
+import countries from "../assets/countries.png"
   
 export const navLinks = [
-  // {
-  //   id: "about",
-  //   title: "About",
-  // },
-  // {
-  //   id: "projects",
-  //   title: "Projects",
-  // },
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
   {
     id: "work",
     title: "Work",

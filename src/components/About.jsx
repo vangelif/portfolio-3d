@@ -28,24 +28,27 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Hello, Vangelis here! I am an ex-Maritime professional and Mandarin teacher & translator turned to software development. 
-      Currently, I am completing coursework at Microverse, a remote software dev organization where we are pair-programming and we are assigned real-world projects.
-      In my capstone project we used HTML/CSS and JavaScript and built a Chinese Culture web course that I am truly proud of. I combined my love for the Mandarin language alongside my other love for coding and came up with that jewel!
-        {/* At the the age of 27 I was assigned to set up an office in Singapore and at the age of 32 I was head of Procurement in another firm, but my passion for languages be it Mandarin, Spanish, JavaScript or Ruby make me the ideal candidate that any prudent hiring manager would like to interview. 
+      As a Full Stack Developer, I bring a unique blend of experiences from my previous roles in the maritime industry and as a Mandarin teacher & translator. I was previously an Educational Mentor at Microverse, a remote software development organization, where I've completed over 40 real-life projects, mastering both front-end and back-end technologies.<br /><br />
 
-      Front-End: JavaScript, React, Redux, jQuery, HTML5, CSS3
-      Back-End: Ruby, Rails, MySQL
-      Tools & Methods: Git, Github, TDD, Chrome Dev Tools
-      Professional: Remote Pair-Programming, Mentoring, Planning */}
+        During the course of this journey, I had the privilege to meet 300+ Full Stack Developers, investing over 1300 hours on mastering data structures and algorithms. What's more, I built a community of 150+ fellow Full Stack Developers which I am currently administering. I also mentored a small team of 5 junior developers. 🚀💡👥<br /><br />
+
+        In my latest capstone project, I spearheaded the development of a comprehensive web interface for a logistics firm. Both front-end and back-end, showcasing my proficiency in HTML/CSS, JavaScript, React, Redux, Ruby, Rails, and PostgreSQL. Combining my passion for languages with my love for coding, I crafted a seamless user experience that I'm truly proud of.
+        <br /><br />
+        🔧 Front-End: JavaScript, React, Redux, jQuery, HTML5, CSS3, SCSS, MaterialUI, Tailwind<br />
+        ⚙️ Back-End: Ruby, Ruby on Rails, Capybara, Devise, PostgreSQL<br />
+        🛠️ Tools & Methods: Git, Github, TDD, Chrome Dev Tools<br />
+        💼 Professional Skills: Remote Pair-Programming, System Designing, Architecture, Mentoring, Planning<br /><br />
+
+        <em>I am also honing my skill in AWS, MERN Stack other frameworks and libraries such as Three.js and Blender.</em>
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   )
 }
