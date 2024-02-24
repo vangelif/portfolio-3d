@@ -20,14 +20,14 @@ import {
   jest,
   figma,
   country,
-  countries,
+  // countries,
   // starbucks,
   // tesla,
   // shopify,
   // carrent,
   // mvrva,
   // budget,
-  tripguide,  
+  // tripguide,  
 } from "../assets";
 
 import tvshows from "../assets/tvshows.png";
