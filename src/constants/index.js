@@ -19,7 +19,7 @@ import {
   git,
   jest,
   figma,
-  meta,
+  countries,
   starbucks,
   tesla,
   shopify,
@@ -32,7 +32,6 @@ import {
 import tvshows from "../assets/tvshows.png";
 import mvrva from "../assets/mvrva.png";
 import budget from "../assets/budget.png";
-import countries from "../assets/countries.png"
   
 export const navLinks = [
   {
