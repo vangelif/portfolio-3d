@@ -39,12 +39,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import countries from "./countries.png";
+import country from "./country.png";
 
 export {
   vologo,
   backend,
   creator,
   mobile,
+  country,
   web,
   ruby,
   postman,

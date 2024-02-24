@@ -19,6 +19,7 @@ import {
   git,
   jest,
   figma,
+  country,
   countries,
   // starbucks,
   // tesla,
@@ -289,7 +290,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: countries,
+    image: country,
     source_code_link: "https://github.com/vangelif/react-webapp",
   },
 ];
