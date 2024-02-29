@@ -229,6 +229,7 @@ const projects = [
     ],
     image: mvrva,
     source_code_link: "https://github.com/vangelif/mvrva-transport-front-end",
+    live_demo: "https://www.loom.com/share/549a42a0aed24965954d02d99fafbbde?sid=39d1c58e-2ebb-492f-b4c6-1c17ad83e193"
   },
   {
     name: "Budgeting App",
@@ -250,6 +251,7 @@ const projects = [
     ],
     image: budget,
     source_code_link: "https://github.com/vangelif/budget_app",
+    live_demo: "https://www.loom.com/share/7bbc2cf4cb7f46069c38d9e6f552b993?sid=dcbfa6e9-9d08-4226-bb58-14231afa59c8"
   },
   {
     name: "Movie App",
@@ -271,6 +273,7 @@ const projects = [
     ],
     image: tvshows,
     source_code_link: "https://github.com/vangelif/TV-Maze-API",
+    live_demo: "https://www.loom.com/share/563af97d6bab486584c7b441d5513bef?sid=a6e33818-9189-4396-bbf3-c1c68f9fb0e7"
   },
   {
     name: "Countries App",
@@ -292,6 +295,7 @@ const projects = [
     ],
     image: country,
     source_code_link: "https://github.com/vangelif/react-webapp",
+    live_demo: "https://www.loom.com/share/3de8f12688db4671b1370fb8a4d89e1a?sid=377028ba-3eba-4abf-ac30-067a44f18085"
   },
 ];
   

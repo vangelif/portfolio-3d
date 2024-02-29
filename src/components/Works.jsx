@@ -7,7 +7,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_demo }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt options={{
@@ -35,6 +35,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             #{tag.name}     
             </p>
           )}
+        </div>
+        <div>
+          <button onClick={() => window.open (live_demo, "_blank")} className='mt-5 w-full py-2 bg-primary text-white rounded-2x1'>📽️ View Demo</button>
         </div>
       </Tilt>
     </motion.div>
