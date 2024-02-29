@@ -1,7 +1,8 @@
 
 import { styles } from "../styles"
-// import { motion } from 'framer-motion'
-import { ComputersCanvas } from "./canvas"
+import { motion } from 'framer-motion'
+import { socialIcons } from "../constants"
+// import { ComputersCanvas } from "./canvas"
 
 const Hero = () => {
   return (
@@ -13,17 +14,26 @@ const Hero = () => {
         </div>
         <div> 
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I am <span className='text-[#915eff]'>Vangelis</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-1 text-white-100`}>
             I build projects, using Ruby on Rails &<br className='sm:block hidden' /> React - Redux user interfaces, web applications and features
           </p>
-
+          <p className={`${styles.heroSubText} mt-5 text-white-100`}>
+            I am also honing my skills in AWS, MERN Stack & Three.js
+            </p>
+          <div className='p-2 flex gap-3 mt-5'>
+            {socialIcons.map((icon, index) => (
+              <a href={icon.link} target="_blank" rel="noreferrer" key={index}>
+                <img src={icon.icon} alt={icon.name} className='w-[35px] h-[35px] object-contain' />
+              </a>
+            ))}
+          </div>
         </div>
 
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
-      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href='#projects'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.dev 
               animate={{
@@ -39,7 +49,7 @@ const Hero = () => {
           </div>
         </a> 
 
-      </div> */}
+      </div>
 
     </section>
   )

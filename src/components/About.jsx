@@ -41,8 +41,6 @@ const About = () => {
         ⚙️ Back-End: Ruby, Ruby on Rails, Capybara, Devise, PostgreSQL<br />
         🛠️ Tools & Methods: Git, Github, TDD, Chrome Dev Tools<br />
         💼 Professional Skills: Remote Pair-Programming, System Designing, Architecture, Mentoring, Planning<br /><br />
-
-        <em>I am also honing my skill in AWS, MERN Stack other frameworks and libraries such as Three.js and Blender.</em>
       </motion.p>
       {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

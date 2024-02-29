@@ -41,7 +41,24 @@ import tripguide from "./tripguide.png";
 // import countries from "./countries.png";
 import country from "./country.png";
 
+import telegram from "./social/telegram.png";
+import medium from "./social/medium.png";
+import linkedin from "./social/linkedin.png";
+import githubIcon from "./social/github-blueish.png";
+import x from "./social/x.png";
+import wellfound from "./social/wellfound.png";
+import weixin from "./social/weixin.png";
+
+
+
 export {
+  weixin,
+  telegram,
+  medium,
+  linkedin,
+  x,
+  githubIcon,
+  wellfound,
   vologo,
   backend,
   creator,

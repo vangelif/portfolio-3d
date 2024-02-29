@@ -20,6 +20,13 @@ import {
   jest,
   figma,
   country,
+  linkedin,
+  medium,
+  telegram,
+  githubIcon,
+  x,
+  wellfound,
+  weixin
   // countries,
   // starbucks,
   // tesla,
@@ -30,6 +37,9 @@ import {
   // tripguide,  
 } from "../assets";
 
+
+// import wellfound from '../assets/social/wellfound.png';
+// import x from "../assets/social/x.png";
 import tvshows from "../assets/tvshows.png";
 import mvrva from "../assets/mvrva.png";
 import budget from "../assets/budget.png";
@@ -208,6 +218,44 @@ const testimonials = [
   },
 ];
   
+const socialIcons = [
+  // {
+  //   name: "Weixin",
+  //   icon: weixin,
+  //   link: "https://www.twitter.com/vangfot",
+  // },
+  {
+    name: "GitHub",
+    icon: githubIcon,
+    link: "https://www.github.com/vangelif",
+  },
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/vangfot/",
+  },
+  {
+    name: "Telegram",
+    icon: telegram,
+    link: "https://t.me/vangelif",
+  },
+  {
+    name: "Wellfound",
+    icon: wellfound,
+    link: "https://wellfound.com/u/vangelis-fotiadis",
+  },
+  // {
+  //   name: "Medium",
+  //   icon: medium,
+  //   link: "https://medium.com/@vangfot",
+  // },
+  // {
+  //   name: "X",
+  //   icon: x,
+  //   link: "https://www.twitter.com/vangfot",
+  // },
+];
+
 const projects = [
   {
     name: "Logistics Company",
@@ -229,7 +277,8 @@ const projects = [
     ],
     image: mvrva,
     source_code_link: "https://github.com/vangelif/mvrva-transport-front-end",
-    live_demo: "https://www.loom.com/share/549a42a0aed24965954d02d99fafbbde?sid=39d1c58e-2ebb-492f-b4c6-1c17ad83e193"
+    live_demo: "https://www.loom.com/share/549a42a0aed24965954d02d99fafbbde?sid=39d1c58e-2ebb-492f-b4c6-1c17ad83e193",
+    live_link: "https://mvrva-transport-3zsz.onrender.com/",
   },
   {
     name: "Budgeting App",
@@ -251,7 +300,8 @@ const projects = [
     ],
     image: budget,
     source_code_link: "https://github.com/vangelif/budget_app",
-    live_demo: "https://www.loom.com/share/7bbc2cf4cb7f46069c38d9e6f552b993?sid=dcbfa6e9-9d08-4226-bb58-14231afa59c8"
+    live_demo: "https://www.loom.com/share/7bbc2cf4cb7f46069c38d9e6f552b993?sid=dcbfa6e9-9d08-4226-bb58-14231afa59c8",
+    live_link: "https://mysite-yx9a.onrender.com/",
   },
   {
     name: "Movie App",
@@ -273,7 +323,8 @@ const projects = [
     ],
     image: tvshows,
     source_code_link: "https://github.com/vangelif/TV-Maze-API",
-    live_demo: "https://www.loom.com/share/563af97d6bab486584c7b441d5513bef?sid=a6e33818-9189-4396-bbf3-c1c68f9fb0e7"
+    live_demo: "https://www.loom.com/share/563af97d6bab486584c7b441d5513bef?sid=a6e33818-9189-4396-bbf3-c1c68f9fb0e7",
+    live_link: "https://vangelif.github.io/TV-Maze-API/dist/",
   },
   {
     name: "Countries App",
@@ -295,9 +346,10 @@ const projects = [
     ],
     image: country,
     source_code_link: "https://github.com/vangelif/react-webapp",
-    live_demo: "https://www.loom.com/share/3de8f12688db4671b1370fb8a4d89e1a?sid=377028ba-3eba-4abf-ac30-067a44f18085"
+    live_demo: "https://www.loom.com/share/3de8f12688db4671b1370fb8a4d89e1a?sid=377028ba-3eba-4abf-ac30-067a44f18085",
+    live_link: "https://precious-crumble-870230.netlify.app/",
   },
 ];
   
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socialIcons };
   
